@@ -14,3 +14,16 @@ age_input = input("Please enter your age: ")
 # Doing maths with it, so therefore we need to convert it to an integer first.
 age_next_five_years = int(age_input) + 5
 print(f"By the next five years, {name} will be {age_next_five_years} years old.")
+
+user_first_num = input("Please enter the first number: ")
+user_second_num = input("Please enter the second number: ")
+product = int(user_first_num) * int(user_second_num)
+print(f"The product of {user_first_num} and {user_second_num} is {product}.")
+# Your Challenge (Student Edition)
+# Modify the code above to do the following:
+
+# Ask the user for two numbers (e.g., num1 and num2).
+
+# Multiply them together.
+
+# Print the result in a clean f-string that says: "The product of [num1] and [num2] is [result]."
