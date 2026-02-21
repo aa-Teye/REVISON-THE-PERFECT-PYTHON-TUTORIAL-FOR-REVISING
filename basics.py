@@ -7,3 +7,6 @@ identity  = 10977320 # An integer
 
 #Trying the multiple assignment role
 name, level, is__active = "Alex", 200, True
+
+# A remind that the input function always returns a string, no matter what the user types.
+age_input = input("Please enter your age: ")
