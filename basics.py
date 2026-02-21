@@ -15,10 +15,8 @@ age_input = input("Please enter your age: ")
 age_next_five_years = int(age_input) + 5
 print(f"By the next five years, {name} will be {age_next_five_years} years old.")
 
-user_first_num = input("Please enter the first number: ")
-user_second_num = input("Please enter the second number: ")
-product = int(user_first_num) * int(user_second_num)
-print(f"The product of {user_first_num} and {user_second_num} is {product}.")
+
+
 # Your Challenge (Student Edition)
 # Modify the code above to do the following:
 
@@ -27,3 +25,15 @@ print(f"The product of {user_first_num} and {user_second_num} is {product}.")
 # Multiply them together.
 
 # Print the result in a clean f-string that says: "The product of [num1] and [num2] is [result]."
+
+
+user_first_num = input("Please enter the first number: ")
+user_second_num = input("Please enter the second number: ")
+product = int(user_first_num) * int(user_second_num)
+print(f"The product of {user_first_num} and {user_second_num} is {product}.")
+summation  = int(user_first_num) + int(user_second_num)
+print(f"The sum of {user_first_num} and {user_second_num} is {summation}.")
+
+User_num1 = input("Please enter the first number: ")
+user_num2 = input("Please enter the second number: ")
+difference = int(User_num1) - int(user_num2)
