@@ -34,6 +34,11 @@ print(f"The product of {user_first_num} and {user_second_num} is {product}.")
 summation  = int(user_first_num) + int(user_second_num)
 print(f"The sum of {user_first_num} and {user_second_num} is {summation}.")
 
-User_num1 = input("Please enter the first number: ")
-user_num2 = input("Please enter the second number: ")
-difference = int(User_num1) - int(user_num2)
+User_num1 = int(input("Please enter the first number: "))
+if User_num1 > 0:
+    print(f"This number is positive.")
+
+elif User_num1 < 0:
+    print(f"This number is negative.")
+else:
+    print(f"This number is zero.")
